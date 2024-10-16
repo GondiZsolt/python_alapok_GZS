@@ -52,11 +52,11 @@ Készíts egy programot, amely kiírja a 7-es szorzótáblát 1-től 10-ig!
 7 x 1 = 7
 7 x 2 = 14"""
 
-# szorzó = 0
+# szorzo = 0
 # for i in range(1, 11):
-#     szorzó = szorzó + 1
+#     szorzo = szorzo + 1
 #     i *= 7
-#     print(f"7 x {szorzó} ={i}")
+#     print(f"7 x {szorzo} ={i}")
 
 """4. Feladat: Számok visszafelé
 Írj egy programot, amely kiírja a számokat 10-től 1-ig csökkenő sorrendben!
@@ -64,9 +64,8 @@ Készíts egy programot, amely kiírja a 7-es szorzótáblát 1-től 10-ig!
 9
 8"""
 
-for i in range(1, 11):
-
-    print(i)
+# for i in range(10, 0, -1):
+#     print(i)
 
 """5. Feladat: Csillagok kirajzolása
 Készíts egy programot, amely egy háromszöget rajzol csillagokból! Az első sorban 1
@@ -75,10 +74,16 @@ csillag, a másodikban 2, és így tovább, összesen 5 sorban.
 **
 ***"""
 
-
+# for i in range(1, 6):
+#     print(i * "*")
 
 """6. Feladat: Számok négyzetei
 Írj egy programot, amely kiírja az 1-től 10-ig terjedő számok négyzeteit!
 1 négyzete: 1
 2 négyzete: 4"""
 
+szam = 0
+for i in range(1, 11):
+    szam += 1
+    if i  2:
+        print(f" {szam} negyzete: {i}")
